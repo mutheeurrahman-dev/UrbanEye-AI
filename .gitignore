@@ -1,0 +1,30 @@
+# Python
+venv/
+backend/venv/
+.venv/
+__pycache__/
+backend/app/__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+urbaneye.db
+backend/urbaneye.db
+
+# Uploads
+app/uploads/*
+!app/uploads/.gitkeep
+backend/app/uploads/*
+!backend/app/uploads/.gitkeep
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
